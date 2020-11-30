@@ -5,7 +5,7 @@ INSERT INTO O_OBJ
 	'EntryScreen',
 	8,
 	'EntryScreen',
-	'',
+	'Shows information about the driver progress in gaining access to the carpark.',
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO O_NBATTR
 	VALUES ("798090e4-0c33-47b9-b5b0-9a9cc42af582",

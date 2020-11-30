@@ -5,7 +5,7 @@ INSERT INTO O_OBJ
 	'IntercomRequestButton',
 	5,
 	'IntercomRequestButton',
-	'',
+	'A button that a dirver presses to request communications with a secuirty officer.',
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO O_ID
 	VALUES (0,

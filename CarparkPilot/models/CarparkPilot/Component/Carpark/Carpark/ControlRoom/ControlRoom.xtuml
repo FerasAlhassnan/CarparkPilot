@@ -5,7 +5,7 @@ INSERT INTO O_OBJ
 	'ControlRoom',
 	1,
 	'ControlRoom',
-	'',
+	'Holds information about the carpark and monitors the entry and exit points of the carpark.',
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO O_NBATTR
 	VALUES ("a34400b3-0956-42c5-8902-068847ac2f26",

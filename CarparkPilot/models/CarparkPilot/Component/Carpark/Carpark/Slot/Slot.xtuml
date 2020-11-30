@@ -5,7 +5,7 @@ INSERT INTO O_OBJ
 	'Slot',
 	6,
 	'Slot',
-	'',
+	'The driver receives a ticket through it and send a signal to the boom once the ticket is accepted.',
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO O_ID
 	VALUES (0,
