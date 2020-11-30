@@ -1,0 +1,32 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("4a669cc9-56ff-47ea-b9ec-a4d32b9dce9d",
+	'EntrySensor',
+	9,
+	'EntrySensor',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_ID
+	VALUES (0,
+	"4a669cc9-56ff-47ea-b9ec-a4d32b9dce9d");
+INSERT INTO O_ID
+	VALUES (1,
+	"4a669cc9-56ff-47ea-b9ec-a4d32b9dce9d");
+INSERT INTO O_ID
+	VALUES (2,
+	"4a669cc9-56ff-47ea-b9ec-a4d32b9dce9d");
+INSERT INTO PE_PE
+	VALUES ("4a669cc9-56ff-47ea-b9ec-a4d32b9dce9d",
+	1,
+	"b50a6469-6cf9-41e9-b183-03ebb269735a",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("b50a6469-6cf9-41e9-b183-03ebb269735a",
+	"00000000-0000-0000-0000-000000000000",
+	"f6e74d3d-363c-46e0-921b-c82c65ab6fd9",
+	'Carpark',
+	'',
+	0,
+	'../Carpark.xtuml');
