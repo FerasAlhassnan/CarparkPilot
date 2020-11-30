@@ -7,6 +7,24 @@ INSERT INTO O_OBJ
 	'IntercomRequestButton',
 	'A button that a dirver presses to request communications with a secuirty officer.',
 	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("c35d3e7a-d6db-429e-9538-8c213a7795e8",
+	"330917fa-3573-4774-b830-9a3ed315f502");
+INSERT INTO O_BATTR
+	VALUES ("c35d3e7a-d6db-429e-9538-8c213a7795e8",
+	"330917fa-3573-4774-b830-9a3ed315f502");
+INSERT INTO O_ATTR
+	VALUES ("c35d3e7a-d6db-429e-9538-8c213a7795e8",
+	"330917fa-3573-4774-b830-9a3ed315f502",
+	"00000000-0000-0000-0000-000000000000",
+	'Pressed',
+	'',
+	'',
+	'Pressed',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000001",
+	'',
+	'');
 INSERT INTO O_ID
 	VALUES (0,
 	"330917fa-3573-4774-b830-9a3ed315f502");

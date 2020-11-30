@@ -7,6 +7,24 @@ INSERT INTO O_OBJ
 	'Boom',
 	'It''s a bar that holds disallows access to the carpark unless a ticket is issued.',
 	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("12c3cd15-b2c3-4304-b4e5-ab8d4683a822",
+	"8322db2f-3a1a-4060-bc7d-dc4e65c9db7f");
+INSERT INTO O_BATTR
+	VALUES ("12c3cd15-b2c3-4304-b4e5-ab8d4683a822",
+	"8322db2f-3a1a-4060-bc7d-dc4e65c9db7f");
+INSERT INTO O_ATTR
+	VALUES ("12c3cd15-b2c3-4304-b4e5-ab8d4683a822",
+	"8322db2f-3a1a-4060-bc7d-dc4e65c9db7f",
+	"00000000-0000-0000-0000-000000000000",
+	'Position',
+	'',
+	'',
+	'Position',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000001",
+	'',
+	'');
 INSERT INTO O_ID
 	VALUES (0,
 	"8322db2f-3a1a-4060-bc7d-dc4e65c9db7f");

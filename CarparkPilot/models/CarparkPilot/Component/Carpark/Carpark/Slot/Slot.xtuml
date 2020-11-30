@@ -7,6 +7,24 @@ INSERT INTO O_OBJ
 	'Slot',
 	'The driver receives a ticket through it and send a signal to the boom once the ticket is accepted.',
 	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("d142703a-c670-4338-a062-59d3d1455275",
+	"de826895-8501-4c55-93b7-00fe2b49af3f");
+INSERT INTO O_BATTR
+	VALUES ("d142703a-c670-4338-a062-59d3d1455275",
+	"de826895-8501-4c55-93b7-00fe2b49af3f");
+INSERT INTO O_ATTR
+	VALUES ("d142703a-c670-4338-a062-59d3d1455275",
+	"de826895-8501-4c55-93b7-00fe2b49af3f",
+	"00000000-0000-0000-0000-000000000000",
+	'TicketStatus',
+	'',
+	'',
+	'TicketStatus',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000001",
+	'',
+	'');
 INSERT INTO O_ID
 	VALUES (0,
 	"de826895-8501-4c55-93b7-00fe2b49af3f");
