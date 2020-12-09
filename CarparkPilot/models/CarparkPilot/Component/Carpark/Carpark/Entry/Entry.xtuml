@@ -2,10 +2,11 @@
 
 INSERT INTO O_OBJ
 	VALUES ("89d45429-8caa-4054-9803-fa944a69041b",
-	'EntryScreen',
+	'Entry',
 	8,
-	'EntryScreen',
-	'Shows information about the driver progress in gaining access to the carpark.',
+	'Entry',
+	' Each instance indicates a driver progress in gaining access to the carpark.
+',
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO O_NBATTR
 	VALUES ("798090e4-0c33-47b9-b5b0-9a9cc42af582",
@@ -18,7 +19,7 @@ INSERT INTO O_ATTR
 	"89d45429-8caa-4054-9803-fa944a69041b",
 	"00000000-0000-0000-0000-000000000000",
 	'TicketRequested',
-	'',
+	'Shows whether the ticket has been requested or not. False by default.',
 	'',
 	'TicketRequested',
 	0,
@@ -36,7 +37,7 @@ INSERT INTO O_ATTR
 	"89d45429-8caa-4054-9803-fa944a69041b",
 	"798090e4-0c33-47b9-b5b0-9a9cc42af582",
 	'TicketIssued',
-	'',
+	'Shows if the ticket has been issued or not. False by default.',
 	'',
 	'TicketIssued',
 	0,
@@ -54,7 +55,7 @@ INSERT INTO O_ATTR
 	"89d45429-8caa-4054-9803-fa944a69041b",
 	"c0186f65-9587-4040-9600-7a31a242aafa",
 	'BoomPosition',
-	'',
+	'Shows if the position of the boom is down or up. False by default.',
 	'',
 	'BoomPosition',
 	0,
@@ -72,7 +73,7 @@ INSERT INTO O_ATTR
 	"89d45429-8caa-4054-9803-fa944a69041b",
 	"9100a72c-5598-428f-89a7-869e9f372a11",
 	'TicketAccepted',
-	'',
+	'shows if the driver has taken the issued ticket or not. False by default.',
 	'',
 	'TicketAccepted',
 	0,

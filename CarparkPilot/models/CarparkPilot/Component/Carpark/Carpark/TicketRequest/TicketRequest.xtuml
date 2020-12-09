@@ -5,7 +5,7 @@ INSERT INTO O_OBJ
 	'TicketRequest',
 	4,
 	'TicketRequest',
-	'A button that a driver presses to request a ticket.',
+	' Indicates if the ticket has been requested and queues all the requested tickets in a certain amount of time.',
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO O_NBATTR
 	VALUES ("fba93b4b-0d3f-4adf-accf-78b26930f033",
@@ -17,12 +17,30 @@ INSERT INTO O_ATTR
 	VALUES ("fba93b4b-0d3f-4adf-accf-78b26930f033",
 	"ba32fe47-3909-418e-9793-936c4467c60a",
 	"00000000-0000-0000-0000-000000000000",
-	'Pressed',
+	'Requested',
+	'indicates if a ticket has been requested or not. False by default',
 	'',
-	'',
-	'Pressed',
+	'Requested',
 	0,
 	"ba5eda7a-def5-0000-0000-000000000001",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("24e81cda-b517-40a2-893d-8f8fb6e32eeb",
+	"ba32fe47-3909-418e-9793-936c4467c60a");
+INSERT INTO O_BATTR
+	VALUES ("24e81cda-b517-40a2-893d-8f8fb6e32eeb",
+	"ba32fe47-3909-418e-9793-936c4467c60a");
+INSERT INTO O_ATTR
+	VALUES ("24e81cda-b517-40a2-893d-8f8fb6e32eeb",
+	"ba32fe47-3909-418e-9793-936c4467c60a",
+	"fba93b4b-0d3f-4adf-accf-78b26930f033",
+	'Queue',
+	' indicates the number of times a ticket has been requested in a certain amount of time',
+	'',
+	'Queue',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000002",
 	'',
 	'');
 INSERT INTO O_ID

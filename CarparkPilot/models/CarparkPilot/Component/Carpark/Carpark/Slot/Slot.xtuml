@@ -18,7 +18,7 @@ INSERT INTO O_ATTR
 	"de826895-8501-4c55-93b7-00fe2b49af3f",
 	"00000000-0000-0000-0000-000000000000",
 	'TicketStatus',
-	'',
+	'Indicates if a ticket has been accepted or not. False by default.',
 	'',
 	'TicketStatus',
 	0,

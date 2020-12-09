@@ -18,7 +18,7 @@ INSERT INTO O_ATTR
 	"8322db2f-3a1a-4060-bc7d-dc4e65c9db7f",
 	"00000000-0000-0000-0000-000000000000",
 	'Position',
-	'',
+	'Indicates whether the boom is down or up. Down by default',
 	'',
 	'Position',
 	0,

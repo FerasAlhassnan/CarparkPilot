@@ -5,7 +5,8 @@ INSERT INTO O_OBJ
 	'IntercomRequest',
 	5,
 	'IntercomRequest',
-	'A button that a dirver presses to request communications with a secuirty officer.',
+	' Indicates if a communication with a security officer has been requested and queues all the requested communications in a certain amount of time.
+',
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO O_NBATTR
 	VALUES ("c35d3e7a-d6db-429e-9538-8c213a7795e8",
@@ -17,12 +18,30 @@ INSERT INTO O_ATTR
 	VALUES ("c35d3e7a-d6db-429e-9538-8c213a7795e8",
 	"330917fa-3573-4774-b830-9a3ed315f502",
 	"00000000-0000-0000-0000-000000000000",
-	'Pressed',
+	'Requested',
+	'indicates if a communication with a control room has been requested or not. False by default.',
 	'',
-	'',
-	'Pressed',
+	'Requested',
 	0,
 	"ba5eda7a-def5-0000-0000-000000000001",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("a83c3ab1-0b0a-475f-8562-488e207da604",
+	"330917fa-3573-4774-b830-9a3ed315f502");
+INSERT INTO O_BATTR
+	VALUES ("a83c3ab1-0b0a-475f-8562-488e207da604",
+	"330917fa-3573-4774-b830-9a3ed315f502");
+INSERT INTO O_ATTR
+	VALUES ("a83c3ab1-0b0a-475f-8562-488e207da604",
+	"330917fa-3573-4774-b830-9a3ed315f502",
+	"c35d3e7a-d6db-429e-9538-8c213a7795e8",
+	'Queue',
+	'indicates the number of times a communication has been requested in a certain amount of time.',
+	'',
+	'Queue',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000002",
 	'',
 	'');
 INSERT INTO O_ID
