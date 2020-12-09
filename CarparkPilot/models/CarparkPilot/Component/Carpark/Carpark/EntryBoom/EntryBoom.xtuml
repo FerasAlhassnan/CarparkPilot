@@ -2,9 +2,9 @@
 
 INSERT INTO O_OBJ
 	VALUES ("8322db2f-3a1a-4060-bc7d-dc4e65c9db7f",
-	'Boom',
+	'EntryBoom',
 	7,
-	'Boom',
+	'EntryBoom',
 	'It''s a bar that holds disallows access to the carpark unless a ticket is issued.',
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO O_NBATTR

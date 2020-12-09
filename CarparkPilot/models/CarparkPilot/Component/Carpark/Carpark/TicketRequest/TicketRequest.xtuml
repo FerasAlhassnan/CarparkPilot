@@ -2,9 +2,9 @@
 
 INSERT INTO O_OBJ
 	VALUES ("ba32fe47-3909-418e-9793-936c4467c60a",
-	'TicketRequestButton',
+	'TicketRequest',
 	4,
-	'TicketRequestButton',
+	'TicketRequest',
 	'A button that a driver presses to request a ticket.',
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO O_NBATTR

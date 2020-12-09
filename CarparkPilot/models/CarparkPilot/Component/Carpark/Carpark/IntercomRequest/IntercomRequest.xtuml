@@ -2,9 +2,9 @@
 
 INSERT INTO O_OBJ
 	VALUES ("330917fa-3573-4774-b830-9a3ed315f502",
-	'IntercomRequestButton',
+	'IntercomRequest',
 	5,
-	'IntercomRequestButton',
+	'IntercomRequest',
 	'A button that a dirver presses to request communications with a secuirty officer.',
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO O_NBATTR
