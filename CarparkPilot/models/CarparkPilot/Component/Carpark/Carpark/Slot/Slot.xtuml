@@ -5,7 +5,8 @@ INSERT INTO O_OBJ
 	'Slot',
 	6,
 	'Slot',
-	'The driver receives a ticket through it and send a signal to the boom once the ticket is accepted.',
+	'Represent the slot on an entry stand through which a ticket is issued.
+',
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO O_NBATTR
 	VALUES ("d142703a-c670-4338-a062-59d3d1455275",
