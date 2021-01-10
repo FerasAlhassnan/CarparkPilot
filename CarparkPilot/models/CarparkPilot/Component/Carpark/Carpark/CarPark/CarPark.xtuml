@@ -43,6 +43,44 @@ INSERT INTO O_ATTR
 	"ba5eda7a-def5-0000-0000-000000000002",
 	'',
 	'');
+INSERT INTO O_NBATTR
+	VALUES ("685e03d0-bc26-4c3b-9dc8-d7e6425e396e",
+	"56e7b1bc-7972-4777-9f3b-5f6f5b6840ac");
+INSERT INTO O_BATTR
+	VALUES ("685e03d0-bc26-4c3b-9dc8-d7e6425e396e",
+	"56e7b1bc-7972-4777-9f3b-5f6f5b6840ac");
+INSERT INTO O_ATTR
+	VALUES ("685e03d0-bc26-4c3b-9dc8-d7e6425e396e",
+	"56e7b1bc-7972-4777-9f3b-5f6f5b6840ac",
+	"ee5c9494-a2b6-4037-a2a5-5918411d3e55",
+	'DateFormat',
+	'Indicates the format for the date.
+Values: D/M/Y or M/D/Y',
+	'',
+	'DateFormat',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("96ef853f-58be-4e4e-866f-8118fb16ebf1",
+	"56e7b1bc-7972-4777-9f3b-5f6f5b6840ac");
+INSERT INTO O_BATTR
+	VALUES ("96ef853f-58be-4e4e-866f-8118fb16ebf1",
+	"56e7b1bc-7972-4777-9f3b-5f6f5b6840ac");
+INSERT INTO O_ATTR
+	VALUES ("96ef853f-58be-4e4e-866f-8118fb16ebf1",
+	"56e7b1bc-7972-4777-9f3b-5f6f5b6840ac",
+	"685e03d0-bc26-4c3b-9dc8-d7e6425e396e",
+	'TimeFormat',
+	'Indicates the format for the time.
+Values: 12 hour or 24 hour',
+	'',
+	'TimeFormat',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
 INSERT INTO O_ID
 	VALUES (0,
 	"56e7b1bc-7972-4777-9f3b-5f6f5b6840ac");

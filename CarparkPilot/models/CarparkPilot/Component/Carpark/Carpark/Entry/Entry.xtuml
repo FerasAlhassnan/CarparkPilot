@@ -5,7 +5,7 @@ INSERT INTO O_OBJ
 	'Entry',
 	8,
 	'Entry',
-	' Each instance indicates a driver progress in gaining access to the carpark.
+	'represents the process to gaining access into the carpark.
 ',
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO O_NBATTR

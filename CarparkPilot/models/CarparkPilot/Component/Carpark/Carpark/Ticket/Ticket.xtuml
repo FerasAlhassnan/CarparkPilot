@@ -39,8 +39,7 @@ INSERT INTO O_ATTR
 	'EntryDateTime',
 	'The issued date for the ticket.
 Units: Seconds.
-Origin: beginning of the epoch
-Format: M/D/Y or D/M/Y',
+Origin: beginning of the epoch',
 	'',
 	'EntryDateTime',
 	0,
@@ -58,11 +57,6 @@ INSERT INTO O_OIDA
 INSERT INTO O_ID
 	VALUES (1,
 	"5f88a353-bb44-4710-9002-21ec32c60141");
-INSERT INTO O_OIDA
-	VALUES ("1a523d8a-702e-4b30-94c7-e989dc9959a2",
-	"5f88a353-bb44-4710-9002-21ec32c60141",
-	1,
-	'EntryDateTime');
 INSERT INTO O_ID
 	VALUES (2,
 	"5f88a353-bb44-4710-9002-21ec32c60141");
